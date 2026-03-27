@@ -24,7 +24,7 @@ export default function AddTransaction({ onAdd }) {
     setError('');
     
     try {
-      const res = await fetch('http://127.0.0.1:5000/api/transactions', {
+      const res = await fetch('/_/backend/api/transactions', {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ export default function AddTransaction({ onAdd }) {
       const formData = new FormData();
       formData.append('csv', csvFile);
 
-      const res = await fetch('http://127.0.0.1:5000/api/upload-csv', {
+      const res = await fetch('/_/backend/api/upload-csv', {
         method: 'POST',
         headers: { 
           'Authorization': `Bearer ${token}`

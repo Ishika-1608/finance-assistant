@@ -13,7 +13,7 @@ export const AuthProvider = ({ children }) => {
   // Check if user is already logged in (on page refresh)
   useEffect(() => {
     if (token) {
-      fetch('http://127.0.0.1:5000/api/check_session', {
+  fetch('/_/backend/api/check_session', {
         headers: { 'Authorization': `Bearer ${token}` }
       })
         .then(res => res.json())
@@ -37,7 +37,7 @@ export const AuthProvider = ({ children }) => {
   }, [token]);
 
   const login = async (username, password) => {
-    const res = await fetch('http://127.0.0.1:5000/api/login', {
+  const res = await fetch('/_/backend/api/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username, password })
@@ -54,7 +54,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const register = async (username, password) => {
-    const res = await fetch('http://127.0.0.1:5000/api/register', {
+  const res = await fetch('/_/backend/api/register', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ username, password })
@@ -69,7 +69,7 @@ export const AuthProvider = ({ children }) => {
 
   const logout = async () => {
     if (token) {
-      await fetch('http://127.0.0.1:5000/api/logout', {
+  await fetch('/_/backend/api/logout', {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${token}` }
       }).catch(() => {});

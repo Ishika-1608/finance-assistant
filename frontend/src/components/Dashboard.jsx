@@ -19,7 +19,7 @@ function Dashboard() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch('http://127.0.0.1:5000/api/insights', {
+  const res = await fetch('/_/backend/api/insights', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
