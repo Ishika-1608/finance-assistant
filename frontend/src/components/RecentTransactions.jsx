@@ -13,7 +13,7 @@ export default function RecentTransactions({ onDelete }) {
 
   const fetchTransactions = async () => {
     try {
-      const res = await fetch('/_/backend/api/transactions', {
+fetch(`https://ishika1608.pythonanywhere.com/api/transactions`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();

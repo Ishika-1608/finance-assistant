@@ -19,7 +19,7 @@ app.config['JWT_SECRET_KEY'] = 'jwt_secret_key_change_later'
 app.config['JWT_EXPIRATION_HOURS'] = 24 * 7  # 7 days
 
 # --- INITIALIZATION ---
-CORS(app, supports_credentials=True, origins=['http://localhost:5173', 'http://127.0.0.1:5173'])
+CORS(app, supports_credentials=True, origins=['http://localhost:5173', 'http://127.0.0.1:5173', 'https://finance-assist.netlify.app', 'https://*.netlify.app'])
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 

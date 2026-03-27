@@ -19,7 +19,7 @@ function Dashboard() {
     setLoading(true);
     setError(null);
     try {
-  const res = await fetch('/_/backend/api/insights', {
+fetch(`https://ishika1608.pythonanywhere.com/api/insights`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
