@@ -1,0 +1,16 @@
+date,description,amount,type,category
+2023-10-01,Salary Deposit,3500.0,income,Income
+2023-10-02,Rent Payment,-1200.0,expense,Rent
+2023-10-03,Grocery Store,-85.5,expense,Groceries
+2023-10-05,Netflix Subscription,-15.99,expense,Entertainment
+2023-10-06,Gas Station,-45.0,expense,Transport
+2023-10-08,Restaurant Dinner,-60.0,expense,Dining Out
+2023-10-10,Amazon Purchase,-35.0,expense,Shopping
+2023-10-12,Coffee Shop,-6.5,expense,Dining Out
+2023-10-15,Electric Bill,-90.0,expense,Utilities
+2023-10-18,Gym Membership,-50.0,expense,Health
+2023-10-20,Uber Ride,-25.0,expense,Transport
+2023-10-22,Grocery Store,-92.3,expense,Groceries
+2023-10-25,Movie Tickets,-30.0,expense,Entertainment
+2023-10-28,Internet Bill,-60.0,expense,Utilities
+2023-10-30,Shopping Mall,-150.0,expense,Shopping

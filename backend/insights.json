@@ -1,0 +1,93 @@
+{
+    "summary": {
+        "total_income": 3500.0,
+        "total_expense": 1945.29,
+        "net_savings": 1554.71,
+        "risk_status": "Healthy",
+        "risk_color": "green"
+    },
+    "spending_by_category": {
+        "Dining Out": 66.5,
+        "Entertainment": 45.99,
+        "Groceries": 177.8,
+        "Health": 50.0,
+        "Rent": 1200.0,
+        "Shopping": 185.0,
+        "Transport": 70.0,
+        "Utilities": 150.0
+    },
+    "balance_timeline": [
+        {
+            "date": "2023-10-01",
+            "running_balance": 3500.0
+        },
+        {
+            "date": "2023-10-02",
+            "running_balance": 2300.0
+        },
+        {
+            "date": "2023-10-03",
+            "running_balance": 2214.5
+        },
+        {
+            "date": "2023-10-05",
+            "running_balance": 2198.51
+        },
+        {
+            "date": "2023-10-06",
+            "running_balance": 2153.51
+        },
+        {
+            "date": "2023-10-08",
+            "running_balance": 2093.51
+        },
+        {
+            "date": "2023-10-10",
+            "running_balance": 2058.51
+        },
+        {
+            "date": "2023-10-12",
+            "running_balance": 2052.01
+        },
+        {
+            "date": "2023-10-15",
+            "running_balance": 1962.0100000000002
+        },
+        {
+            "date": "2023-10-18",
+            "running_balance": 1912.0100000000002
+        },
+        {
+            "date": "2023-10-20",
+            "running_balance": 1887.0100000000002
+        },
+        {
+            "date": "2023-10-22",
+            "running_balance": 1794.7100000000003
+        },
+        {
+            "date": "2023-10-25",
+            "running_balance": 1764.7100000000003
+        },
+        {
+            "date": "2023-10-28",
+            "running_balance": 1704.7100000000003
+        },
+        {
+            "date": "2023-10-30",
+            "running_balance": 1554.7100000000003
+        }
+    ],
+    "recommendations": [
+        {
+            "icon": "shopping-bag",
+            "text": "Review Shopping Habits",
+            "detail": "Consider postponing non-essential shopping items this month to boost savings."
+        },
+        {
+            "icon": "savings",
+            "text": "Great Job!",
+            "detail": "You have a healthy savings rate. Consider moving some funds to an investment account."
+        }
+    ]
+}
