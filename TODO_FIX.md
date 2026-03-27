@@ -4,5 +4,5 @@
 - [x] 2. Edit AuthContext.jsx ✓
 - [x] 3. Edit Dashboard.jsx ✓
 - [x] 4. Edit RecentTransactions/AddTransaction ✓
-- [ ] 5. git commit/push for Vercel redeploy
+- [x] 5. git commit/push complete ✓ (auto-redeploy triggered)
 - [ ] 6. Set Vercel env vars SECRET_KEY, JWT_SECRET_KEY
